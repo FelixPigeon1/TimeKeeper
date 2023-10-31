@@ -20,11 +20,11 @@ Making sure you are staying productive is important, With almost everyone having
 
 #### 3.1.1 Use Case Diagram
 
-![image](Assets/Images/UseCase.png)
+![image](Assets/Images/TimeKeeper_Use_Case.png)
 
 #### 3.1.2 Sequence Diagram
 
-![image](Assets/Images/sequence.png)
+![image](Assets/Images/TimeKeeper_Sequence_Diagram.png)
 
 #### 3.1.3 Class Diagram
 
