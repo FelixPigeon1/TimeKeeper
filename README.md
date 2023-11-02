@@ -28,4 +28,4 @@ Making sure you are staying productive is important, With almost everyone having
 
 #### 3.1.3 Class Diagram
 
-![image](Assets/Images/classdiagram.png)
+![image](Assets/Images/Class_Diagram.png)
