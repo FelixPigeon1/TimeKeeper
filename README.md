@@ -24,6 +24,8 @@ Making sure you are staying productive is important, With almost everyone having
 
 #### 3.1.2 Sequence Diagram
 
+Figure 2 shows the sequence diagram for the add reminder usecase.  Initially the user interface is loaded and the app will check if it is connected to the server.  If it is connected the app will connect to the database and create the reminder and add it to the list of reminders.  If the app isn't connected to the server a unconnected error is displayed to the user.
+
 ![image](Assets/Images/TimeKeeper_Sequence_Diagrams.png)
 
 #### 3.1.3 Class Diagram
