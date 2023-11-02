@@ -1,0 +1,16 @@
+* {
+    text-align: center;
+}    
+body {
+    background-color: #FCFAE8; 
+    color: #562020;
+    font-family: Hind, sans-serif;
+    font-size: 32px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#reminder-container {
+    color: #EAB662 
+}
