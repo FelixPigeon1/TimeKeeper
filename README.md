@@ -24,7 +24,7 @@ Making sure you are staying productive is important, With almost everyone having
 
 #### 3.1.2 Sequence Diagram
 
-![image](Assets/Images/TimeKeeper_Sequence_Diagram.png)
+![image](Assets/Images/TimeKeeper_Sequence_Diagrams.png)
 
 #### 3.1.3 Class Diagram
 
