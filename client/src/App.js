@@ -43,16 +43,18 @@ function App() {
         {listOfReminders.map((reminder) => {
           return (
             <div>
-              <svg width="238" height="102" viewBox="0 0 238 102" xmlns="http://www.w3.org/2000/svg">
-              <rect y="9.90295" width="238" height="92.0971" rx="10" fill="#36CB33"/>
-              <path d="M0 9.99999C0 4.47714 4.47715 0 10 0
-                       H228C233.523 0 238 4.47715 238 10
-                       V82.0971C238 87.62 233.523 92.0971 228 92.0971
-                       H10
-                       C4.47715 92.0971 0 87.6199 0 82.0971
-                      V9.99999Z" fill="#EAB662"/>
-                <text x="5" y="30" class="title">{reminder.name}</text>
-              </svg>
+              <table className='reminder-box'>
+                <tr className='reminder-box-title'>
+                  {reminder.name}
+                </tr>
+                <tr>
+                  {reminder.eventTime}
+                </tr>
+                <tr>
+                  {reminder.remindTime}
+                </tr>
+                
+              </table>
               <h1>{reminder.name}</h1>
               <p>Priority: {reminder.priority}</p>
               <p>Event Time: {reminder.eventTime}</p>
@@ -73,13 +75,15 @@ function App() {
             />
         </div>
         <div>
-          <input
-              type="number"
-              placeholder='Priority...'
+          <select className='prio-select'
               onChange={(event) => {
                 setPriority(event.target.value);
               }}
-            />
+            >
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
         </div>
         <div>
           <DatePicker
@@ -102,7 +106,7 @@ function App() {
               dateFormat={"Pp"}
             />
         </div>
-          <button onClick={createReminder}> Add Reminder </button>
+          <button className='reminder-button' onClick={createReminder}> Add Reminder </button>
       </div>
     </div>
 

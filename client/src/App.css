@@ -2,8 +2,54 @@
   text-align: center;
 }
 
+body {
+  background-color: #FCFAE8;
+}
+
+.reminder-button {
+  font-family: 'Hind';
+  border-radius: 8px;
+  font-size: 24px;
+  background-color: #562020;
+  color: #EAB662; 
+  font-weight: 700;
+
+}
+
+.reminder-box {
+  background-color: #EAB662;
+  align-content: center;
+  color: #562020;
+  box-shadow: -0px 0px 10px #36CB33;
+  border-style: hidden;
+  font-family: 'Hind';
+  font-style: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reminder-box-title {
+  background-color: #EAB662;
+  color: #562020;
+  border-style: hidden;
+  font-family: 'Hind';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
-  color: rgba(86, 32, 32, 0.50);
+  color: #562020;
   text-align: center;
   font-family: 'Hind', sans-serif;
   font-size: 32px;
@@ -13,7 +59,7 @@ h1 {
 }
 
 .title {
-  color: rgba(86, 32, 32, 0.50);
+  fill: #562020;
   text-align: center;
   font-family: 'Hind', sans-serif;
   font-size: 32px;
@@ -22,6 +68,14 @@ h1 {
   line-height: normal;
 }
 
+.prio-select {
+  border-radius: 8px;
+  border-color: #000000;
+  font-size: 18px;
+  border-style: hidden;
+  background-color: #FCFAE8;
+
+}
 .App-link {
   color: #61dafb;
 }
