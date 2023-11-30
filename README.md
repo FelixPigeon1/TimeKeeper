@@ -20,7 +20,7 @@ Javascript is a popular programming language for web development that through th
 
 "**TimeKeeper**" web application is based on the client-server architecture.  The client is provided with an interactive web app user interface for the process of creating reminders and getting reminded.  The server-side processing will be enabled using Mern.  The client requests the user's previous reminders and the server responds with all the reminders the user had input the last time they used "**TimeKeeper**."
 <p align="center">
-  <img src="https://github.com/FelixPigeon1/TimeKeeper/assets/149452963/927280c2-2f59-47f4-a6a0-573f4c3d5632">
+  <img src="https://cdn.discordapp.com/attachments/1016883876070703176/1179874143743791186/image.png?ex=657b5e6c&is=6568e96c&hm=dc07a26fecf9002ef26415fc935747d8e70331c17f33b9010c6ff100e7d9e7b9&">
 </p>
 <p align="center">
   Figure 1: Client Server Architecture of TimeKeeper Web App
