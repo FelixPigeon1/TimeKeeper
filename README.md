@@ -70,6 +70,7 @@ All the user needs to do is go to the “**TimeKeeper**” website and start cre
 
 ### 4.2 Home
 
+From this window user can create and view reminders while setting priorities and the reminder/notification date.
 <p align="center">
   <img src=https://cdn.discordapp.com/attachments/1148690053690839064/1179649450197651527/image.png?ex=657a8d29&is=65681829&hm=5b4f0e177acf1dc1141470d6ecfc420e96ebf7bbb985f2ab84532293fe637538&>
 </p>
@@ -77,10 +78,9 @@ All the user needs to do is go to the “**TimeKeeper**” website and start cre
   Figure 5: Home Activity
 </p>
 
-From this window user can create and view reminders while setting priorities and the reminder/notification date.
-
 #### 4.2.1 Notification Details
 
+The server sends notifications to the user at the set time specified in each reminder.
 <p align="center">
   <img src=>
 </p>
@@ -88,17 +88,15 @@ From this window user can create and view reminders while setting priorities and
   Figure 6: How TimeKeeper Reminders Will Appear
 </p>
 
-The server sends notifications to the user at the set time specified in each reminder.
-
 ### 4.3 Server-Side
 
+The server-side processing will be enabled using MongoDB. Whenever a user creates a reminder it will be stored in MongoDB to be accessed later.  
 <p align="center">
-  <img src=>
+  <img src=https://cdn.discordapp.com/attachments/1148690053690839064/1179866940374781952/Screenshot_2023-11-30_142740.png?ex=657b57b7&is=6568e2b7&hm=78f68af338379bf45b25484615e82a6bf2ab5b2ba9cb0038aef51a2fc6e80799&>
 </p>
 <p align="center">
   Figure 7: Server Storage
 </p>
-The server-side processing will be enabled using MongoDB. Whenever a user creates a reminder it will be stored in MongoDB to be accessed later.  
 
 ## 5 Future Scope
 
