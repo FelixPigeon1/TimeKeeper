@@ -71,7 +71,7 @@ All the user needs to do is go to the “**TimeKeeper**” website and start cre
 ### 4.2 Home
 
 <p align="center">
-  <img src=>
+  <img src=https://cdn.discordapp.com/attachments/1148690053690839064/1179649450197651527/image.png?ex=657a8d29&is=65681829&hm=5b4f0e177acf1dc1141470d6ecfc420e96ebf7bbb985f2ab84532293fe637538&>
 </p>
 <p align="center">
   Figure 5: Home Activity
