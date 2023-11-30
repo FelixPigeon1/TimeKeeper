@@ -3,7 +3,11 @@ import { useState, useEffect } from 'react';
 import Axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css"
+import NotifyUser from './notifyUser';
+
 //https://www.npmjs.com/package/react-datepicker
+
+
 
 function App() {
   const [listOfReminders, setListOfReminders] = useState([]);
@@ -37,6 +41,18 @@ function App() {
     });
   };
 
+  function checkReminderTime() {
+    listOfReminders.map().forEach(function(value, key) {
+      if (value == "remindTime") {
+        if (key.parse() == Date.now()) {
+          NotifyUser.showNotification()
+        }
+      }
+    });
+  };
+
+  setInterval(checkReminderTime)
+
   return (
     <div className="App">
       <div className="reminderDisplay">
@@ -44,21 +60,21 @@ function App() {
           return (
             <div>
               <table className='reminder-box'>
-                <tr className='reminder-box-title'>
+                <thead className='reminder-box-title'>
                   {reminder.name}
-                </tr>
-                <tr>
-                  {reminder.eventTime}
-                </tr>
-                <tr>
-                  {reminder.remindTime}
-                </tr>
-                
+                </thead>
+                <tbody>
+                  <tr>
+                    Priority: {reminder.priority}
+                  </tr>
+                  <tr>
+                    Time of event: {reminder.eventTime.slice(0, 16)}
+                  </tr>
+                  <tr>
+                    Time to notify: {reminder.remindTime.slice(0, 16)}          
+                  </tr>
+                </tbody>
               </table>
-              <h1>{reminder.name}</h1>
-              <p>Priority: {reminder.priority}</p>
-              <p>Event Time: {reminder.eventTime}</p>
-              <p>Remind Time: {reminder.remindTime}</p>
             </div>
           );
         })}
@@ -75,6 +91,7 @@ function App() {
             />
         </div>
         <div>
+          <p className='light-font'>Priority:</p>
           <select className='prio-select'
               onChange={(event) => {
                 setPriority(event.target.value);
@@ -86,6 +103,7 @@ function App() {
           </select>
         </div>
         <div>
+        <p className='light-font'>Date of event:</p>
           <DatePicker
               selected={eventTime}
               onChange={(date) => {
@@ -96,7 +114,7 @@ function App() {
             />
         </div>
         <div>
-          <p>Date to remind</p>
+          <p className='light-font'>Date to remind:</p>
           <DatePicker
               selected={remindTime}
               onChange={(date) => {

@@ -7,7 +7,7 @@ body {
 }
 
 .reminder-button {
-  font-family: 'Hind';
+  font-family: 'Hind', sans-serif;
   border-radius: 8px;
   font-size: 24px;
   background-color: #562020;
@@ -20,9 +20,8 @@ body {
   background-color: #EAB662;
   align-content: center;
   color: #562020;
-  box-shadow: -0px 0px 10px #36CB33;
   border-style: hidden;
-  font-family: 'Hind';
+  font-family: 'Hind', sans-serif;
   font-style: bold;
   text-align: center;
   margin-left: auto;
@@ -39,7 +38,7 @@ body {
   background-color: #EAB662;
   color: #562020;
   border-style: hidden;
-  font-family: 'Hind';
+  font-family: 'Hind', sans-serif;
   font-style: bold;
   font-weight: 700;
   font-size: 24px;
@@ -67,15 +66,32 @@ h1 {
   font-weight: 700;
   line-height: normal;
 }
-
+.reminderDisplay {
+  padding-top: 10px;
+}
 .prio-select {
-  border-radius: 8px;
   border-color: #000000;
   font-size: 18px;
-  border-style: hidden;
   background-color: #FCFAE8;
-
 }
+
+.light-font {
+  fill: #562020;
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 300;
+  line-height: normal;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.createReminderWindow {
+  display: block;
+  padding-top: 15px;
+}
+
 .App-link {
   color: #61dafb;
 }
