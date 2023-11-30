@@ -107,4 +107,4 @@ There is some future scope for this project. At this moment, the software does n
 All in all, we think “TimeKeeper” is a web app that will be able to help people in this busy world remember their tasks.  We hope that we can continue to make improvements to this project.
 
 ## 7 Walkthrough
-[![Walkthrough Video](https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)](https://youtube.com/shorts/KUM2p2Weicg?feature=shared)
+[![Walkthrough Video](https://cdn.discordapp.com/attachments/1016883876070703176/1179881938387992606/image.png?ex=657b65af&is=6568f0af&hm=95b18e73f90bfcd7f89c9ea6699c02db85f250a1de652ebedf865db23f1d240c&)](https://youtube.com/shorts/KUM2p2Weicg?feature=shared)
