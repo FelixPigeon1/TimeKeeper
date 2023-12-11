@@ -15,7 +15,7 @@ describe('TimeKeeper App - Backend Tests', () => {
     }
    
     // Connect to a test database before running the tests
-    await mongoose.connect("mongodb+srv://maurerev:MotorCityMayhem@clustertest.d4k2fe9.mongodb.net/?retryWrites=true&w=majority", {
+    await mongoose.connect("mongodb+srv://maurerev:MotorCityMayhem@clustertest.d4k2fe9.mongodb.net/test?retryWrites=true&w=majority", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
