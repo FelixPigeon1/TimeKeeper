@@ -6,6 +6,7 @@ const RemindersModel = require('./Reminders');
 const cors = require("cors")
 app.use(express.json());
 app.use(cors());
+module.exports = app;
 
 
 mongoose.connect("mongodb+srv://maurerev:MotorCityMayhem@cluster0.t2ikduu.mongodb.net/TimeKeeper?retryWrites=true&w=majority");
