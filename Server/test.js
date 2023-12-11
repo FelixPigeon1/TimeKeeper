@@ -34,7 +34,7 @@ describe('TimeKeeper App - Backend Tests', () => {
     it('should add a new reminder', async () => {
       const newReminder = {
         name: 'Test Reminder',
-        priority: 1,
+        priority: 2,
         eventTime: '2023-12-31T12:00:00Z',
         remindTime: '2023-12-31T11:00:00Z',
       };
