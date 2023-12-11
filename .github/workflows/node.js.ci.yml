@@ -33,3 +33,5 @@ jobs:
       working-directory: './Server'
     - run: npm test
       working-directory: './Server'
+      env:
+        CI: true
