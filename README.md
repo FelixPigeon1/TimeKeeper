@@ -105,4 +105,4 @@ The lack of notifications means that if a user forgets to check the website they
 All in all, we think “TimeKeeper” is a web app that will be able to help people in this busy world remember their tasks.  We hope that we can continue to make improvements to this project to fix the current lack of "TimeKeeper".
 
 ## 9 Walkthrough
-[![Walkthrough Video](https://cdn.discordapp.com/attachments/1016883876070703176/1179881938387992606/image.png?ex=657b65af&is=6568f0af&hm=95b18e73f90bfcd7f89c9ea6699c02db85f250a1de652ebedf865db23f1d240c&)](https://youtube.com/shorts/KUM2p2Weicg?feature=shared)
+[![Walkthrough Video](https://cdn.discordapp.com/attachments/1016883876070703176/1179881938387992606/image.png?ex=657b65af&is=6568f0af&hm=95b18e73f90bfcd7f89c9ea6699c02db85f250a1de652ebedf865db23f1d240c&)](https://youtu.be/mL_PyTyQ9-E)
