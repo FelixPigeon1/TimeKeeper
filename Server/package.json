@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "Index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "start": "nodemon Index.js"
   },
   "keywords": [],
