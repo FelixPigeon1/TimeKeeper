@@ -69,7 +69,7 @@ From this window user can create and view reminders while setting priorities and
 
 #### 4.2.1 Calendar Details
 
-The user has acess to a calander that when clicking on any day shows the reminders for that day and no others.
+The user has access to a calendar that when clicking on any day shows the reminders for that day and no others.
 <p align="center">
   <img src=https://github.com/FelixPigeon1/TimeKeeper/assets/149452963/e35cc68e-03b0-4743-a0f7-fb1641fa3813
 >
@@ -90,19 +90,19 @@ The server-side processing will be enabled using MongoDB. Whenever a user create
 
 ## 5 Looking Back
 
-Even though we are a small three person group we are proud of what we were able to create within these four months.  We didn't get to everything we wanted to such as notifications or login but if we had more time we are confident we would of been able to complete these aswell. 
+Even though we are a small three-person group we are proud of what we were able to create within these four months while managing work in other classes.  We didn't get to everything we wanted to such as notifications or login but if we had more time we are confident we would have been able to complete these as well. Though we didn't know how to do many of the things we had to code through the in-class demos and lectures and personal studying we were able to make this web app that we are proud of.
 
 ## 6 Future Scope
 
 There is some future scope for this project. At this moment, the software does not send any notifications.  There is also no user login or authentication which would need to be added later. There is also no way for a user to check their reminders other than using a computer, which we would like to change so “**TimeKeeper**” can be accessed from any device and send reminders to the user.
 
-## 7 Risk Analyasis
+## 7 Risk Analysis
 
 The lack of notifications means that if a user forgets to check the website they may forget an important task such as taking medication.  Another risk is that the lack of login means that anyone can access your reminders if you stay logged in this means that they would have the ability to alter or even delete reminders users have made.  
 
 ## 8 Conclusion
 
-All in all, we think “TimeKeeper” is a web app that will be able to help people in this busy world remember their tasks.  We hope that we can continue to make improvements to this project to fix the current lacks of "TimeKeeper".
+All in all, we think “TimeKeeper” is a web app that will be able to help people in this busy world remember their tasks.  We hope that we can continue to make improvements to this project to fix the current lack of "TimeKeeper".
 
 ## 9 Walkthrough
 [![Walkthrough Video](https://cdn.discordapp.com/attachments/1016883876070703176/1179881938387992606/image.png?ex=657b65af&is=6568f0af&hm=95b18e73f90bfcd7f89c9ea6699c02db85f250a1de652ebedf865db23f1d240c&)](https://youtube.com/shorts/KUM2p2Weicg?feature=shared)
